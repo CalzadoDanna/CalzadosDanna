@@ -1,0 +1,28 @@
+.navbar-brand {
+  font-weight: bold;
+  color: black;
+}
+.navbar-brand span {
+  color: black;
+  font-weight: normal;
+}
+
+.collapse .nav-link {
+  color: #a19f9f;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: lighter;
+}
+.collapse .nav-link:hover {
+  color: #747272;
+  font-weight: bolder;
+}
+.collapse .pedido {
+  font-weight: bold;
+}
+.collapse .pedido:hover {
+  color: black;
+  font-weight: 900;
+}
+
+/*# sourceMappingURL=style.css.map */

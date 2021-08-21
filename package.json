@@ -1,0 +1,24 @@
+{
+  "name": "calzadodanna",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass -watch scss -o css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mafe343/CalzadosDanna.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mafe343/CalzadosDanna/issues"
+  },
+  "homepage": "https://github.com/Mafe343/CalzadosDanna#readme",
+  "dependencies": {
+    "node-sass": "^6.0.1"
+  },
+  "devDependencies": {},
+  "description": ""
+}
