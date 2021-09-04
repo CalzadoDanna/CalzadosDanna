@@ -1,0 +1,57 @@
+.contact-bg {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    background-color: #C5CEBF;
+    padding: 30px;
+} 
+
+.input-label {
+    margin-bottom: 10px;
+}
+
+.white {
+    color: white;
+}
+
+.contact-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.contact-couple {
+    width: 49%;
+}
+
+.contact-input {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #C5CEBF;
+}
+
+.input-container {
+    padding: 5px;
+    background-color: white;
+}
+
+.center {
+    text-align: center;
+}
+
+.button-container {
+    text-align: center;
+}
+
+.send {
+    border: 1px solid white;
+    padding: 10px 20px;
+    font-weight: 400;
+    color: white;
+    background-color: #C5CEBF;
+    &:hover {
+        font-weight: 600;
+    }
+}

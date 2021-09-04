@@ -1,0 +1,40 @@
+.footer {
+    background-color: #C5CEBF;
+    display: flex;
+    color: white;
+    padding: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.footer-img {
+    flex-grow: 1;
+    flex-basis: 0;
+    text-align: center;
+    img {
+        width: 65%;
+    }
+}
+
+.footer-info {
+    flex-grow: 2;
+    flex-basis: 0;
+    margin: auto;
+}
+
+.footer-social {
+    flex-grow: 1;
+    flex-basis: 0;
+    margin: auto;
+}
+
+.social-link {
+    color: white;
+    font-size: 2.5rem;
+    &:hover {
+        color: white;
+    }
+}
+
+#fb-link {
+    margin-right: 10px;
+}

@@ -10,9 +10,18 @@
 .collapse {
   .nav-link {
     color: rgb(161, 159, 159);
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     font-weight: lighter;
+
+    &::before {
+      display: block;
+      content: attr(title);
+      font-weight: bold;
+      height: 0;
+      overflow: hidden;
+      visibility: hidden;
+    }
 
     &:hover {
       color: rgb(116, 114, 114);

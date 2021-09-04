@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="user-scalable = no">
 
   <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <!-- Css -->
   <link rel="stylesheet" href="css/style.css">
   <title>Calzados Danna</title>
@@ -15,18 +17,22 @@
   <!-- Fuentes -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Glory:wght@100&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
   <!-- font-family: 'Glory', sans-serif;
       font-family: 'Open Sans', sans-serif; -->
 </head>
 
 <body>
   <!-- Barra de Navegación -->
-  <nav class="navbar navbar-expand-lg fixed-top">
+  <nav class="navbar navbar-expand-lg">
     <div class="container">
       <a class="navbar-brand" href="index.html">.CALZADOS DANNA.<span><br> DANIEL RAMIREZ</span></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarNav" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarNav" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -51,5 +57,78 @@
     </div>
   </nav>
 
+  <div class="contact-bg">
+    <form action="https://formsubmit.co/rociofc0312@gmail.com" method="POST">
+      <input type="hidden" name="_subject" value="Nuevo pedido de zapatos!">
+      <div class="input-label">
+        <label class="white" for="name">Nombre y Apellido:</label>
+        <div class="input-container">
+          <input class="w-100 contact-input" type="text" id="name" name="name" required>
+        </div>
+      </div>
+      <div class="contact-group input-label">
+        <div class="contact-couple">
+          <label class="white" for="mail">Correo:</label>
+          <div class="input-container">
+            <input class="w-100 contact-input" type="email" id="mail" name="mail" required>
+          </div>
+        </div>
+        <div class="contact-couple">
+          <label class="white" for="phone">Teléfono:</label>
+          <div class="input-container">
+            <input class="w-100 contact-input" type="text" id="phone" name="phone" required>
+          </div>
+        </div>
+      </div>
+      <div class="input-label">
+        <label class="white" for="idea">Contános tu idea:</label>
+        <textarea class="w-100 contact-input" type="text" id="idea" name="idea" required></textarea>
+      </div>
+      <p class="white center">Una vez realizado el pedido, el plazo de entrega estimado es de <b>10 a 15 días.</b></p>
+      <div class="button-container">
+        <button class="send" type="submit">Enviar</button>
+      </div>
+    </form>
+  </div>
+  <div class="process">
+    <div>
+      <img class="process-img" src="./images/delivery-truck.png" alt="">
+      <br>
+      <p><b>Punto de entega</b></p>
+      <p>en Buenos Aires o </p>
+      <p>envíos a todo el país.</p>
+    </div>
+    <div>
+      <img class="process-img" src="./images/dollar.png" alt="">
+      <br>
+      <p><b>Pagá con</b></p>
+      <p>Mercado Pago</p>
+      <p>Tarjeta de crédito</p>
+      <p>Transferencia bancaria</p>
+      <p>Efectivo</p>
+    </div>
+    <div>
+      <img class="process-img" src="./images/exchange.png" alt="">
+      <br>
+      <p><b>Cambios o</b></p>
+      <b>devoluciones</b>
+    </div>
+  </div>
+  <footer class="footer">
+    <div class="footer-img">
+      <img class="logo" src="./images/logo-footer.png" alt="">
+    </div>
+    <div class="footer-info">
+      <p><i class="fa fa-phone" aria-hidden="true"></i> +54 911 4025-1572</p>
+      <p><i class="fa fa-at" aria-hidden="true"></i> radanielantionio@gmail.com</p>
+      <p><i class="fa fa-map-marker" aria-hidden="true"></i> Grand Bourg | Buenos Aires | Argentina</p>
+    </div>
+    <div class="footer-social">
+      <p>Nuestras redes sociales:</p>
+      <a href="" class="social-link" id="fb-link"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+      <a href="https://www.instagram.com/calzados__danna/?utm_medium=copy_link" class="social-link"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+    </div>
+  </footer>
 </body>
+
 </html>
