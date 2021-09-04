@@ -1,28 +1,119 @@
 .navbar-brand {
   font-weight: bold;
-  color: black;
-}
-.navbar-brand span {
-  color: black;
-  font-weight: normal;
-}
+  color: black; }
+  .navbar-brand span {
+    color: black;
+    font-weight: normal; }
 
 .collapse .nav-link {
   color: #a19f9f;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 18px;
-  font-weight: lighter;
-}
-.collapse .nav-link:hover {
-  color: #747272;
-  font-weight: bolder;
-}
-.collapse .pedido {
-  font-weight: bold;
-}
-.collapse .pedido:hover {
-  color: black;
-  font-weight: 900;
-}
+  font-weight: lighter; }
+  .collapse .nav-link::before {
+    display: block;
+    content: attr(title);
+    font-weight: bold;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden; }
+  .collapse .nav-link:hover {
+    color: #747272;
+    font-weight: bolder; }
 
-/*# sourceMappingURL=style.css.map */
+.collapse .pedido {
+  font-weight: bold; }
+  .collapse .pedido:hover {
+    color: black;
+    font-weight: 900; }
+
+.contact-bg {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  background-color: #C5CEBF;
+  padding: 30px; }
+
+.input-label {
+  margin-bottom: 10px; }
+
+.white {
+  color: white; }
+
+.contact-group {
+  display: flex;
+  justify-content: space-between; }
+
+.w-100 {
+  width: 100%; }
+
+.contact-couple {
+  width: 49%; }
+
+.contact-input {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #C5CEBF; }
+
+.input-container {
+  padding: 5px;
+  background-color: white; }
+
+.center {
+  text-align: center; }
+
+.button-container {
+  text-align: center; }
+
+.send {
+  border: 1px solid white;
+  padding: 10px 20px;
+  font-weight: 400;
+  color: white;
+  background-color: #C5CEBF; }
+  .send:hover {
+    font-weight: 600; }
+
+.process {
+  padding: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  color: #C5CEBF; }
+
+.process-img {
+  margin-bottom: 10px;
+  width: 100px; }
+
+.footer {
+  background-color: #C5CEBF;
+  display: flex;
+  color: white;
+  padding: 50px;
+  font-family: 'Montserrat', sans-serif; }
+
+.footer-img {
+  flex-grow: 1;
+  flex-basis: 0;
+  text-align: center; }
+  .footer-img img {
+    width: 65%; }
+
+.footer-info {
+  flex-grow: 2;
+  flex-basis: 0;
+  margin: auto; }
+
+.footer-social {
+  flex-grow: 1;
+  flex-basis: 0;
+  margin: auto; }
+
+.social-link {
+  color: white;
+  font-size: 2.5rem; }
+  .social-link:hover {
+    color: white; }
+
+#fb-link {
+  margin-right: 10px; }
