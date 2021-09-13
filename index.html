@@ -10,6 +10,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
   <!-- Css -->
   <link rel="stylesheet" href="css/style.css">
   <title>Calzados Danna</title>
@@ -17,104 +18,218 @@
   <!-- Fuentes -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap" rel="stylesheet">
   <!-- font-family: 'Glory', sans-serif;
       font-family: 'Open Sans', sans-serif; -->
 </head>
 
 <body>
-  <!-- Barra de Navegación -->
-  <nav class="navbar navbar-expand-lg">
-    <div class="container">
-      <a class="navbar-brand" href="index.html">.CALZADOS DANNA.<span><br> DANIEL RAMIREZ</span></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarNav" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav">
-          <li class="nav-item ms-5">
-            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-          </li>
-          <li class="nav-item ms-5">
-            <a class="nav-link" href="servicios.html">Nuestra historia</a>
-          </li>
-          <li class="nav-item ms-5">
-            <a class="nav-link" href="adoptar.html">Nuestro trabajo</a>
-          </li>
-          <li class="nav-item ms-5">
-            <a class="nav-link pedido" href="donar.html">Hacé tu pedido</a>
-          </li>
-          <li class="nav-item ms-5">
-            <a class="nav-link" href="contacto.html">Contacto</a>
-          </li>
-        </ul>
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+    <div class="barra container-fluid">
+      <!-- <a class="navbar-brand mt-5" href="#arriba">
+        <img class="mt-5 ms-5 p-5" src="Images/Daniel-Logo.gif" alt="Logotipo">
+      </a> -->
+      <div class="collapse navbar-collapse d-flex flex-row-reverse d-flex align-items-end mb-5 me-5 flex-column" id="navbarNavAltMarkup">
+        <div class="navbar-nav d-flex flex-column">
+          <div class="redes d-flex justify-content-end">
+            <a href="https://www.instagram.com/calzados__danna/?utm_medium=copy_link" class="social-link me-2"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a href="" class="social-link" id="fb-link"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+          </div>
+          <div class="d-flex">
+            <a class="nav-link me-4 active" href="#arriba">Inicio</a>
+            <a class="nav-link me-4" href="#history">Nuestra historia</a>
+            <a class="nav-link me-4" href="#trabajo">Nuestro trabajo</a>
+            <a class="nav-link me-4 pedido" href="#" tabindex="-1" aria-disabled="true">Hacé tu pedido</a>
+            <a class="nav-link me-4" href="contacto.html">Contacto</a>
+          </div>
+        </div>
       </div>
     </div>
   </nav>
 
-  <div class="contact-bg">
-    <form action="https://formsubmit.co/rociofc0312@gmail.com" method="POST">
-      <input type="hidden" name="_subject" value="Nuevo pedido de zapatos!">
-      <div class="input-label">
-        <label class="white" for="name">Nombre y Apellido:</label>
-        <div class="input-container">
-          <input class="w-100 contact-input" type="text" id="name" name="name" required>
+  <!-- Portada -->
+  <!-- <header class="inicio d-flex mb-5" id="arriba">
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="Images/imgdos.jpg" class="imguno d-block w-100 h-90" alt="Producto">
+        </div>
+        <div class="carousel-item">
+          <img src="Images/imguno.jpg" class="imgdos d-block w-100 h-90" alt="Producto">
+        </div>
+        <div class="carousel-item">
+          <img src="Images/imgtres.jpg" class="imgtres d-block w-100 h-90" alt="Producto">
         </div>
       </div>
-      <div class="contact-group input-label">
-        <div class="contact-couple">
-          <label class="white" for="mail">Correo:</label>
-          <div class="input-container">
-            <input class="w-100 contact-input" type="email" id="mail" name="mail" required>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </header> -->
+
+
+
+  <main>
+    <!-- Seccion nuestra historia -->
+    <!-- <section>
+      <div id="history" class="mb-5">
+        <h1 class="titulo mb-4">nuestra historia.</h1>
+        <p class="historia">Calzados Danna es una empresa familiar con años de trayectoria en la industria del zapato. <br> 
+          Daniel Ramirez, el artesano detrás de Calzados Danna, empezó este camino cuando tenía 15 años en una <br> 
+          fábrica donde aprendió los primeros pasos del oficio y transformó en su medio de vida. Hoy en día Daniel <br> 
+          trabaja junto a su hijo en la cofección de zapatos artesanales hechos a medida para la mujer. <br> 
+          <b>Todo lo que se realiza en el taller de Daniel es de producción 100% artesanal, hecho en Argentina.</b><br>
+          <br>
+          Actualmente, Daniel es parte de la <strong>Fundación Civis,</strong> un espacio virtual donde emprendedores locales <br> 
+          dan a conocer sus productos a la comunidad. Atrás de cada uno de estos emprendimientos hay historias <br> 
+          de superación que atravesaron contextos desafiantes y supieron aprovechar las situaciones para crecer.
+        </p> 
+      </div>
+      <div class="d-flex justify-content-center align-items-center mb-5">
+        <svg width="100" height="22" viewBox="0 0 84 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M6.32004 1.2182C5.06937 0.131233 3.17431 0.264073 2.08751 1.51489L0.884135 2.89987C-0.202465 4.15046 -0.0696565 6.04509 1.18078 7.13185L13.6982 18.0108L17.3438 21.1805C18.5944 22.2678 20.4898 22.1352 21.5768 20.8842L24.7472 17.2353L28.8106 12.5651C29.8977 11.3155 31.7919 11.1835 33.042 12.2701L39.6462 18.0108L43.2949 21.1811C44.5459 22.2681 46.4413 22.1348 47.5279 20.8833L50.6951 17.2353L54.7508 12.5704C55.8378 11.3202 57.7325 11.1877 58.9829 12.2746L65.5823 18.0108L69.231 21.1811C70.4821 22.2681 72.3775 22.1348 73.464 20.8833L76.6312 17.2353L82.3735 10.6327C83.4612 9.38213 83.3286 7.48649 82.0775 6.39943L80.6931 5.19655C79.4426 4.11001 77.5481 4.24273 76.4613 5.493L72.689 9.8327C71.6021 11.0831 69.7073 11.2157 68.4569 10.1289L57.7913 0.85943C56.7686 -0.0293996 55.219 0.0792248 54.3303 1.10204L50.8034 5.16121C50.8024 5.16237 50.8032 5.16417 50.8047 5.16417C50.8063 5.16417 50.8071 5.16597 50.8061 5.16712L46.6711 9.92584C45.6294 11.1247 43.813 11.252 42.6142 10.2102L32.2677 1.21795C31.0171 0.131082 29.1223 0.263789 28.0354 1.51436L26.5449 3.22933L20.8049 9.8327C19.718 11.0831 17.8233 11.2157 16.5728 10.1289L6.32004 1.2182Z" fill="#BABFB7"/>
+        </svg>
+      </div> 
+    </section> -->
+
+
+    <!-- Seccion nuestro trabajo -->
+    <!-- <section id="trabajo">
+      <div class="mb-5">
+        <h2 class="subtitulo mb-4">nuestro trabajo.</h2>
+      </div>
+      <div class="images d-flex mb-5 flex-column">
+        <div class="comprar d-flex justify-content-center">
+          <div class="d-flex flex-column">
+            <div class="acces access-one ms-2 me-2 mb-3">
+              <img class="coluno" src="Images/imgcuatro.JPG" alt="Producto">
+            </div>
+            <div class="acces access-one ms-2 me-2 mb-3">
+              <img class="coluno" src="Images/imgcinco.jpg" alt="Producto">
+            </div>
+          </div>
+          <div class="d-flex flex-column">
+            <div class="acces access-two ms-2 me-2 mb-4">
+              <img class="coldos" src="Images/imgseis.jpg" alt="Producto">
+            </div>
+            <div class="acces access-three ms-2 me-2 mb-4">
+              <img class="coldos" src="Images/imgsiete.jpg" alt="Producto">
+            </div>
+            <div class="acces access-one ms-2 me-2 mb-3">
+              <img class="coldos" src="Images/imgocho.jpg" alt="Producto">
+            </div>
+          </div>
+          <div class="d-flex flex-column">
+            <div class="acces access-one ms-2 me-2 mb-3">
+              <img class="coltres" src="Images/imgnueve.jpg" alt="Producto">
+            </div>
+            <div class="acces texto access-one ms-3 mb-2 mt-3 d-flex justify-content-center flex-column">
+              <h4>HECHO EN ARGENTINA</h4>
+              <hr>
+              <p>100% ARTESANAL</p>
+            </div>
+            <div class="acces access-one ms-2 me-2 mb-3">
+              <img class="colcuatro" src="Images/imgdiez.jpg" alt="Producto">
+            </div>
           </div>
         </div>
-        <div class="contact-couple">
-          <label class="white" for="phone">Teléfono:</label>
-          <div class="input-container">
-            <input class="w-100 contact-input" type="text" id="phone" name="phone" required>
-          </div>
+      </div>
+
+      <div class="final d-flex justify-content-center align-items-center">
+        <div class="linea">
+          <hr>
+        </div>
+        <div>
+          <p class="slow">Cada zapato se realiza <strong>a pedido y a medida</strong> de cada mujer.</p>
+        </div>
+        <div class="lineados">
+          <hr>
         </div>
       </div>
-      <div class="input-label">
-        <label class="white" for="idea">Contános tu idea:</label>
-        <textarea class="w-100 contact-input" type="text" id="idea" name="idea" required></textarea>
+    </section> -->
+
+
+    <!-- Formulario de contacto -->
+    <!-- <section>
+      <div class="contact-bg">
+        <form action="https://formsubmit.co/rociofc0312@gmail.com" method="POST">
+          <input type="hidden" name="_subject" value="Nuevo pedido de zapatos!">
+          <div class="input-label">
+            <label class="white" for="name">Nombre y Apellido:</label>
+            <div class="input-container">
+              <input class="w-100 contact-input" type="text" id="name" name="name" required>
+            </div>
+          </div>
+          <div class="contact-group input-label">
+            <div class="contact-couple">
+              <label class="white" for="mail">Correo:</label>
+              <div class="input-container">
+                <input class="w-100 contact-input" type="email" id="mail" name="mail" required>
+              </div>
+            </div>
+            <div class="contact-couple">
+              <label class="white" for="phone">Teléfono:</label>
+              <div class="input-container">
+                <input class="w-100 contact-input" type="text" id="phone" name="phone" required>
+              </div>
+            </div>
+          </div>
+          <div class="input-label">
+            <label class="white" for="idea">Contános tu idea:</label>
+            <textarea class="w-100 contact-input" type="text" id="idea" name="idea" required></textarea>
+          </div>
+          <p class="white center">Una vez realizado el pedido, el plazo de entrega estimado es de <b>10 a 15 días.</b></p>
+          <div class="button-container">
+            <button class="send" type="submit">Enviar</button>
+          </div>
+        </form>
       </div>
-      <p class="white center">Una vez realizado el pedido, el plazo de entrega estimado es de <b>10 a 15 días.</b></p>
-      <div class="button-container">
-        <button class="send" type="submit">Enviar</button>
+    </section>
+     -->
+
+    <!--Información -->
+    <!-- <section>
+      <div class="process">
+        <div>
+          <img class="process-img" src="./images/delivery-truck.png" alt="">
+          <br>
+          <p><b>Punto de entega</b><br> 
+            en Buenos Aires o <br> 
+            envíos a todo el país.
+          </p>
+          
+        </div>
+        <div>
+          <img class="process-img" src="./images/dollar.png" alt="">
+          <br>
+          <p><b>Pagá con</b></p>
+          <p>Mercado Pago <br> 
+            Tarjeta de crédito <br>
+            Transferencia bancaria <br> 
+            Efectivo 
+          </p>
+        </div>
+        <div>
+          <img class="process-img" src="./images/exchange.png" alt="">
+          <br>
+          <p><b>Cambios o</b><br> 
+            devoluciones
+          </p>
+          <b></b>
+        </div>
       </div>
-    </form>
-  </div>
-  <div class="process">
-    <div>
-      <img class="process-img" src="./images/delivery-truck.png" alt="">
-      <br>
-      <p><b>Punto de entega</b></p>
-      <p>en Buenos Aires o </p>
-      <p>envíos a todo el país.</p>
-    </div>
-    <div>
-      <img class="process-img" src="./images/dollar.png" alt="">
-      <br>
-      <p><b>Pagá con</b></p>
-      <p>Mercado Pago</p>
-      <p>Tarjeta de crédito</p>
-      <p>Transferencia bancaria</p>
-      <p>Efectivo</p>
-    </div>
-    <div>
-      <img class="process-img" src="./images/exchange.png" alt="">
-      <br>
-      <p><b>Cambios o</b></p>
-      <b>devoluciones</b>
-    </div>
-  </div>
-  <footer class="footer">
+    </section> -->
+  </main>
+
+  
+
+  <!-- Footer -->
+  <!-- <footer class="footer">
     <div class="footer-img">
       <img class="logo" src="./images/logo-footer.png" alt="">
     </div>
@@ -128,7 +243,13 @@
       <a href="" class="social-link" id="fb-link"><i class="fa fa-facebook" aria-hidden="true"></i></a>
       <a href="https://www.instagram.com/calzados__danna/?utm_medium=copy_link" class="social-link"><i class="fa fa-instagram" aria-hidden="true"></i></a>
     </div>
-  </footer>
-</body>
+    <div>
+      <a href="#arriba"><img class="subir" src="Images/flecha.svg" alt="flecha"></a>
+    </div>
+  </footer> -->
 
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
+</body>
 </html>

@@ -1,17 +1,32 @@
-.navbar-brand{
-  font-weight: bold;
-  color: black;
-  span {
-    color: black;
-    font-weight: normal;
+.navbar {
+  height: 150px;
+  background-color: rgba(255, 255, 255, 1);
+
+  .redes{
+    margin-right: 24px;
+    .social-link {
+      color: #C5CEBF;
+      font-size: 20px;
+      &:hover {
+          color: rgb(15, 15, 15);
+      }
+    }
   }
 }
 
+.navegar {
+  width: 100%;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
 .collapse {
+  height: 178px;
+  
   .nav-link {
-    color: rgb(161, 159, 159);
-    font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
+    color: #C5CEBF;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 20px;
     font-weight: lighter;
 
     &::before {
