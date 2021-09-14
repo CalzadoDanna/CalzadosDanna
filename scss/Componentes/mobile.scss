@@ -1,8 +1,255 @@
-@media only screen and (max-width: 426px) {
+@media only screen and (max-width: 600px) {
+
+  // Barra de Navegación
   .navbar {
+    height: 300px;
+    padding: 0px;
+    position: relative !important;
+
     .barra{
-      height: 279px;
-      background-color: yellow;
+      padding: 0px !important;
+      margin-top: -50px !important;
+
+      .navbar-brand{
+        margin: 0px !important;
+        padding-top: 10px !important;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        background-color: white;
+        position: fixed;
+        top: 0px;
+
+        img{
+          padding: 0px !important;
+          margin: 0px !important;
+          width: 90px;
+        }
+      }
+    }
+
+    .collapse{
+      margin: 105px 15px 0px 15px!important;
+      justify-content: center;
+
+      .redes{
+        justify-content: center !important;
+        margin-right: 0px;
+      }
+
+      .options{
+        flex-wrap: wrap;
+        justify-content: center;
+
+        .nav-link{
+          font-size: 18px;
+          margin-right: 15px !important;
+          margin-left: 15px !important;
+          text-align: center !important;
+        }
+      }
+    }
+  }
+
+  // Portada
+  .imguno, .imgdos, .imgtres {
+    height: 287px !important;
+  }
+
+
+  // Seccion nuestra historia
+  #history{
+    margin: 30px;
+
+    h1{
+      font-size: 30px;
+      text-align: center;
+    }
+
+    .historia{
+      font-size: 20px;
+      line-height: 30px;
+    }
+  }
+
+  //Seccion nuestro trabajo
+  #trabajo{
+    .subtitulo{
+      font-size: 30px;
+      margin-left: 0px;
+      text-align: center;
+    }
+
+    .images{
+      margin: 0px;
+    
+      .comprar{
+        flex-wrap: wrap;
+
+        .acces{
+          margin: 5px 0px !important;
+          img{
+            width: 100%;
+            height: auto;
+            margin-left: -9px;
+          }
+        }
+
+        .texto{
+          width: auto;
+          padding: 0px;
+          margin: 5px 0px !important;
+        }
+      }
+    }
+
+    .final{
+      flex-direction: column;
+      .linea{
+        margin-left: 0px;
+      }
+      .lineados{
+        margin-right: 0px;
+      }
+
+      .slow{
+        text-align: center;
+      }
+    }
+  }
+
+
+  //Información
+  .process{
+    display: flex;
+    flex-direction: column;
+
+    .process-info{
+      margin-bottom: 25px;
+    }
+  }
+
+  //footer
+  .footer{
+    display: flex;
+    flex-direction: column;
+
+    .footer-info{
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .footer-social{
+      text-align: center;
+    }
+  }
+}
+
+
+
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  .navbar {
+    height: 300px;
+    padding: 0px;
+    position: relative !important;
+
+    .barra{
+      padding: 0px !important;
+      margin-top: -50px !important;
+
+      .navbar-brand{
+        margin: 0px !important;
+        padding-top: 10px !important;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        background-color: white;
+        position: fixed;
+        top: 0px;
+
+        img{
+          padding: 0px !important;
+          margin: 0px !important;
+          width: 90px;
+        }
+      }
+    }
+
+    .collapse{
+      margin: 105px 15px 0px 15px!important;
+      justify-content: center;
+
+      .redes{
+        justify-content: center !important;
+        margin-right: 0px;
+      }
+
+      .options{
+        flex-wrap: wrap;
+        justify-content: center;
+
+        .nav-link{
+          font-size: 18px;
+          margin-right: 15px !important;
+          margin-left: 15px !important;
+          text-align: center !important;
+        }
+      }
+    }
+  }
+
+  .imguno, .imgdos, .imgtres {
+    height: 371px !important;
+  }
+
+  #history{
+    margin-left: 50px;
+    margin-right: 50px;
+
+    .titulo{
+      font-size: 40px;
+      text-align: center;
+    }
+
+    .historia{
+      font-size: 20px;
+      line-height: 30px;
+    }
+  }
+
+  #trabajo{
+    .subtitulo{
+      font-size: 40px;
+      text-align: center;
+      margin-left: 0px;
+    }
+
+    .images{
+      margin-left: 0px !important;
+      margin-right: 0px !important;
+
+      .comprar{
+        flex-wrap: wrap;
+
+        .acces{
+          margin: 5px 0px !important;
+          img{
+            margin-left: -9px;
+          }
+        }
+      }
+    }
+
+    .final{
+      flex-direction: column;
+      
+      .slow{
+        text-align: center;
+      }
+
+      .linea, .lineados{
+        margin: 0px 50px;
+      }
     }
   }
 }
