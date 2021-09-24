@@ -128,10 +128,11 @@
   text-align: center;
 }
 .footer-img img {
-  width: 65%;
+  width: 50%;
 }
 
 .footer-info {
+  color: white;
   flex-grow: 2;
   flex-basis: 0;
   margin: auto;
@@ -158,6 +159,18 @@
 .subir {
   width: 50px;
   color: white;
+}
+
+.up {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 100;
+  padding: 20px;
+}
+
+#contacto {
+  position: relative;
 }
 
 #warped, #warped2 {
@@ -637,6 +650,7 @@
     flex-direction: column;
   }
   .footer .footer-info {
+    color: white;
     text-align: center;
     margin-top: 20px;
   }
