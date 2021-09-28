@@ -129,6 +129,7 @@
         }
       }
     }
+    
 
     .final{
       flex-direction: column;
@@ -254,6 +255,8 @@
   }
 
   #trabajo{
+    padding: 0px !important;
+
     .subtitulo{
       font-size: 40px;
       text-align: center;
@@ -261,21 +264,64 @@
     }
 
     .images{
-      margin-left: 0px !important;
-      margin-right: 0px !important;
-
+      margin: 0px;
+    
       .comprar{
         flex-wrap: wrap;
 
-        .acces{
+        .columnauno{
           margin: 5px 0px !important;
-          img{
-            margin-left: -9px;
+          flex-wrap: wrap;
+          .coluno{
+            width: 141px;
+            height: 167px;
+          }
+        }
+
+        .columnados{
+          flex-wrap: wrap;
+
+          .acces{
+            margin-bottom: 10px !important;
+          }
+
+          .coldos{
+            width: 130px;
+            height: auto;
+            margin: 0px !important;
+          }
+        }
+
+        .columnatres{
+          flex-wrap: wrap;
+
+          .acces{
+            margin-bottom: 10px !important;
+          }
+
+          .coltres{
+            width: 130px;
+            height: auto;
+          }
+
+          .texto{
+            width: 130px;
+            padding: 0px;
+            height: auto;
+
+            .h4,p {
+              font-size: 10px;
+            }
+          }
+
+          .colcuatro{
+            width: 130px;
+            height: auto;
           }
         }
       }
     }
-
+    
     .final{
       flex-direction: column;
       

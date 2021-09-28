@@ -182,7 +182,7 @@
 }
 
 .limit {
-  margin-top: 100px;
+  margin-top: 30px;
   color: white;
   border: 1px solid;
 }
@@ -197,7 +197,6 @@
   z-index: 100;
   padding: 20px;
   top: 200px;
-  bottom: 400px;
   width: 100%;
 }
 
@@ -761,23 +760,60 @@
     line-height: 30px;
   }
 
+  #trabajo {
+    padding: 0px !important;
+  }
   #trabajo .subtitulo {
     font-size: 40px;
     text-align: center;
     margin-left: 0px;
   }
   #trabajo .images {
-    margin-left: 0px !important;
-    margin-right: 0px !important;
+    margin: 0px;
   }
   #trabajo .images .comprar {
     flex-wrap: wrap;
   }
-  #trabajo .images .comprar .acces {
+  #trabajo .images .comprar .columnauno {
     margin: 5px 0px !important;
+    flex-wrap: wrap;
   }
-  #trabajo .images .comprar .acces img {
-    margin-left: -9px;
+  #trabajo .images .comprar .columnauno .coluno {
+    width: 141px;
+    height: 167px;
+  }
+  #trabajo .images .comprar .columnados {
+    flex-wrap: wrap;
+  }
+  #trabajo .images .comprar .columnados .acces {
+    margin-bottom: 10px !important;
+  }
+  #trabajo .images .comprar .columnados .coldos {
+    width: 130px;
+    height: auto;
+    margin: 0px !important;
+  }
+  #trabajo .images .comprar .columnatres {
+    flex-wrap: wrap;
+  }
+  #trabajo .images .comprar .columnatres .acces {
+    margin-bottom: 10px !important;
+  }
+  #trabajo .images .comprar .columnatres .coltres {
+    width: 130px;
+    height: auto;
+  }
+  #trabajo .images .comprar .columnatres .texto {
+    width: 130px;
+    padding: 0px;
+    height: auto;
+  }
+  #trabajo .images .comprar .columnatres .texto .h4, #trabajo .images .comprar .columnatres .texto p {
+    font-size: 10px;
+  }
+  #trabajo .images .comprar .columnatres .colcuatro {
+    width: 130px;
+    height: auto;
   }
   #trabajo .final {
     flex-direction: column;
