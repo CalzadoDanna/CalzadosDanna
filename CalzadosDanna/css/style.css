@@ -599,7 +599,13 @@
   }
 
   .imguno, .imgdos, .imgtres {
-    height: 287px !important;
+    height: 250px !important;
+  }
+
+  .infor {
+    padding-top: 50px;
+    padding-left: 18px;
+    padding-right: 18px;
   }
 
   #history {
@@ -614,6 +620,9 @@
     line-height: 30px;
   }
 
+  #trabajo {
+    padding: 0px !important;
+  }
   #trabajo .subtitulo {
     font-size: 30px;
     margin-left: 0px;
@@ -625,18 +634,30 @@
   #trabajo .images .comprar {
     flex-wrap: wrap;
   }
-  #trabajo .images .comprar .acces {
+  #trabajo .images .comprar .columnauno {
     margin: 5px 0px !important;
   }
-  #trabajo .images .comprar .acces img {
+  #trabajo .images .comprar .columnauno .coluno {
     width: 100%;
     height: auto;
-    margin-left: -9px;
+  }
+  #trabajo .images .comprar .columnados .coldos {
+    width: 100%;
+    height: auto;
+    margin: 0px !important;
+  }
+  #trabajo .images .comprar .columnatres .coltres {
+    width: 100%;
+    height: auto;
+  }
+  #trabajo .images .comprar .columnatres .colcuatro {
+    width: 100%;
+    height: auto;
   }
   #trabajo .images .comprar .texto {
     width: auto;
     padding: 0px;
-    margin: 5px 0px !important;
+    margin: 5px 19px !important;
   }
   #trabajo .final {
     flex-direction: column;
@@ -649,6 +670,7 @@
   }
   #trabajo .final .slow {
     text-align: center;
+    margin: 0px !important;
   }
 
   .process {
@@ -659,8 +681,15 @@
     margin-bottom: 25px;
   }
 
+  .up {
+    margin-right: 50px;
+  }
+
   .footer {
     display: flex;
+    flex-direction: column;
+  }
+  .footer .footer-block {
     flex-direction: column;
   }
   .footer .footer-info {
@@ -758,6 +787,11 @@
   }
   #trabajo .final .linea, #trabajo .final .lineados {
     margin: 0px 50px;
+  }
+
+  .footer .footer-block {
+    display: flex;
+    flex-direction: column;
   }
 }
 

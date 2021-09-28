@@ -53,11 +53,17 @@
 
   // Portada
   .imguno, .imgdos, .imgtres {
-    height: 287px !important;
+    height: 250px !important;
   }
 
 
   // Seccion nuestra historia
+  .infor{
+    padding-top: 50px;
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+
   #history{
     margin: 30px;
 
@@ -74,6 +80,8 @@
 
   //Seccion nuestro trabajo
   #trabajo{
+    padding: 0px !important;
+
     .subtitulo{
       font-size: 30px;
       margin-left: 0px;
@@ -86,19 +94,38 @@
       .comprar{
         flex-wrap: wrap;
 
-        .acces{
+        .columnauno{
           margin: 5px 0px !important;
-          img{
+          .coluno{
             width: 100%;
             height: auto;
-            margin-left: -9px;
+          }
+        }
+
+        .columnados{
+          .coldos{
+            width: 100%;
+            height: auto;
+            margin: 0px !important;
+          }
+        }
+
+        .columnatres{
+          .coltres{
+            width: 100%;
+            height: auto;
+          }
+
+          .colcuatro{
+            width: 100%;
+            height: auto;
           }
         }
 
         .texto{
           width: auto;
           padding: 0px;
-          margin: 5px 0px !important;
+          margin: 5px 19px !important;
         }
       }
     }
@@ -114,6 +141,7 @@
 
       .slow{
         text-align: center;
+        margin: 0px !important;
       }
     }
   }
@@ -129,10 +157,18 @@
     }
   }
 
+  .up{
+    margin-right: 50px;
+  }
+
   //footer
   .footer{
     display: flex;
     flex-direction: column;
+
+    .footer-block{
+      flex-direction: column;
+    }
 
     .footer-info{
       text-align: center;
@@ -250,6 +286,13 @@
       .linea, .lineados{
         margin: 0px 50px;
       }
+    }
+  }
+
+  .footer{
+    .footer-block{
+      display: flex;
+      flex-direction: column;
     }
   }
 }
