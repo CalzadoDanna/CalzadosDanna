@@ -4,6 +4,7 @@
     color: white;
     padding: 50px;
     font-family: 'Red Hat Display', sans-serif;
+    flex-direction: column;
 }
 
 .footer-img {
@@ -39,15 +40,20 @@
     margin-right: 10px;
 }
 
-.subir {
-    width: 50px;
+.limit{
+    margin-top: 100px;
     color: white;
+    border: 1px solid;
+}
+
+.copy{
+    font-size: 11px;
 }
 
 .up {
-    position: absolute;
-    right: 0;
-    bottom: 0;
+    position: fixed;
+    justify-content: end;
     z-index: 100;
     padding: 20px;
-  }
+    bottom: 400px;
+}

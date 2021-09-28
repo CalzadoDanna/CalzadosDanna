@@ -2,11 +2,16 @@
     font-family: 'Red Hat Display', sans-serif;
     font-weight: 400;
     background-color: #C5CEBF;
-    padding: 30px;
+    padding: 30px 79px;
 } 
 
 .input-label {
     margin-bottom: 10px;
+
+    .text{
+        font-family: 'Red Hat Display', sans-serif;
+        font-size: 20px;
+    }
 }
 
 .white {
@@ -39,6 +44,8 @@
 
 .center {
     text-align: center;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 20px;
 }
 
 .button-container {
@@ -53,5 +60,17 @@
     background-color: #C5CEBF;
     &:hover {
         font-weight: 600;
+    }
+}
+
+.flecha{
+    width: 100%;
+    .subir {
+        width: 50px;
+        color: white;
+        position: sticky;
+        top: 500px;
+        left: 100px;
+        right: 100px;
     }
 }

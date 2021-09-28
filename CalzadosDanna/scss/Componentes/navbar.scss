@@ -1,24 +1,32 @@
 .navbar {
-  height: 150px;
+  height: 189px;
   background-color: rgba(255, 255, 255, 1);
 
   .redes{
-    margin-right: 24px;
+    height: 96px;
     .social-link {
       color: #C5CEBF;
       font-size: 20px;
       &:hover {
-          color: rgb(15, 15, 15);
+        color: rgb(15, 15, 15);
       }
     }
   }
+
+  .navbar-brand{
+    width: 410px;
+    img{
+      width: 250px;
+    }
+  }
 }
+
 
 .collapse {
   height: 178px;
   
   .nav-link {
-    color: #C5CEBF;
+    color: #C5CEBF !important;
     font-family: 'Red Hat Display', sans-serif;
     font-size: 20px;
     font-weight: lighter;

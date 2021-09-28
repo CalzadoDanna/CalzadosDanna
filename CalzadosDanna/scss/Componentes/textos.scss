@@ -1,6 +1,10 @@
-#history{
-  margin-left: 100px;
+.infor{
+  padding-top: 50px;
+  padding-left: 79px;
+  padding-right: 79px;
+}
 
+#history{
   h1{
     font-family: 'Red Hat Display', sans-serif;
     color: #BABFB7;
@@ -13,23 +17,23 @@
     font-size: 26px;
     color: #6B6B6B;
     font-weight: normal;
-    line-height: 50px;
+    line-height: 48px;
+    text-align: justify;
   }
 }
 
 #trabajo {
+  padding-left: 79px;
+  padding-right: 79px;
+
   .subtitulo {
-    margin-left: 100px;
     font-family: 'Red Hat Display', sans-serif;
     color: #BABFB7;
     font-weight: bold;
-    font-size: 50px;
+    font-size: 48px;
   }
 
-  .images {
-    margin-left: 100px;
-    margin-right: 100px;
-  }
+  
 
   .coluno {
     width: 440px;
@@ -39,6 +43,7 @@
   .coldos{
     width: 338px;
     height: 336px;
+    margin: 0px 15px;
   }
 
   .coltres{
@@ -50,26 +55,7 @@
     width: 337px;
     height: 387px;
   }
-
-  .acces {
-    img {
-      transform: translate(10px, 20px);
-    }
-
-    &:hover {
-      animation: zoom 2s;
-    }
-
-    @keyframes zoom {
-      from {
-        transform: scale(1);
-      }
-    
-      to {
-        transform: scale(1.1);
-      }
-    }
-  }
+ 
 
   .texto {
     width: 337px;
@@ -99,18 +85,18 @@
     .slow {
       font-family: 'Red Hat Display', sans-serif;
       font-size: 22px;
-      color: #C5CEBF;
-      margin: 30px 50px;
+      color: #C5CEBF !important;
+      margin: 30px 20px;
     }
 
     .linea {
-      width: 240px;
-      margin-left: 100px;
+      width: 340px;
+      margin-left: 0px
     }
 
     .lineados{
       width: 240px;
-      margin-right: 100px;
+      margin-right: 0px;
     }
   }
 }
