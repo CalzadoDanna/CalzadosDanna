@@ -196,6 +196,7 @@
   z-index: 100;
   padding: 20px;
   bottom: 400px;
+  width: 100%;
 }
 
 #warped, #warped2 {
